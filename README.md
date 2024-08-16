@@ -4,8 +4,6 @@ Fork and clone the Repository
 
 ```
 git clone https://github.com/<Your Username>/Placement-Cell-Fusion.git
-
-cd fusiondashboard
 ```
 
 Install the required modules
