@@ -21,3 +21,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
+---
+
+[Figma Design](https://www.figma.com/design/M0zf1pk3qZR51pHrViSEOA/Placement-Cell?node-id=0-1&t=XTGNXYFyVBt7Mcoq-0)
