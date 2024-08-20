@@ -1,7 +1,9 @@
 // components/Sidebar.tsx
 import React from 'react';
-import { Drawer, List, ListItem, ListItemText, Typography } from '@mui/material';
+import { Drawer, List, ListItem, ListItemText, Typography ,Button} from '@mui/material';
 import Link from 'next/link';
+import LogoutIcon from '@mui/icons-material/Logout';
+
 
 const Sidebar = () => {
   return (
@@ -40,6 +42,27 @@ const Sidebar = () => {
           </Link>
         ))}
       </List>
+      {/* Log Out Button */}
+      <Button
+        variant="outlined"
+        startIcon={<LogoutIcon />}
+        sx={{
+          textTransform: 'none',
+          fontSize: '14px',
+          fontWeight: 'normal',
+          width: 'calc(100% - 32px)',
+          justifyContent: 'flex-start',
+          margin: '10px 16px',
+          borderColor: '#e94560',
+          color: '#e94560',
+          '&:hover': {
+            borderColor: '#000',
+            color: '#000',
+          },
+        }}
+      >
+        Log Out
+      </Button>
     </Drawer>
   );
 };
